@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>auba-race</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6a7184"/><stop offset=".5" stop-color="#1b1d24"/><stop offset="1" stop-color="#090a0b"/></linearGradient>
+<linearGradient id="gv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bff9fd"/><stop offset=".5" stop-color="#02d2e3"/><stop offset="1" stop-color="#027f8a"/></linearGradient>
+<linearGradient id="gb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ff5fc"/><stop offset=".45" stop-color="#02d2e3"/><stop offset="1" stop-color="#01707a"/></linearGradient>
+<linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3b0"/><stop offset=".5" stop-color="#d9ae3c"/><stop offset="1" stop-color="#8a6a1a"/></linearGradient>
+<symbol id="helmet" viewBox="0 0 200 200"><ellipse cx="112" cy="188" rx="70" ry="6" fill="rgb(0 0 0/.3)" stroke="none"/><path fill="url(#gh)" d="M38 122C38 62 78 24 120 24C160 24 182 70 180 122L180 152C180 168 168 178 150 178L68 178C50 178 38 168 38 152Z"/><path fill="url(#gg)" stroke="none" d="M38 138H180V150H38Z"/><path fill="url(#gv)" d="M92 92H180V132H100C88 132 84 96 92 92Z"/><path d="M38 122H92M60 178L60 150" fill="none"/><path class="gl" fill="none" stroke="#fff" stroke-width="5" d="M64 74C74 50 96 38 120 36"/><circle fill="url(#gg)" cx="150" cy="160" r="5"/></symbol>
+<symbol id="car" viewBox="0 0 300 100"><ellipse cx="150" cy="96" rx="135" ry="5" fill="rgb(0 0 0/.3)" stroke="none"/><g class="sp" stroke="#fff" fill="none" stroke-width="2"><path d="M292 46H338M296 59H350M290 72H332"/></g><path fill="url(#gb)" d="M18 72L56 63L108 52L148 41L182 38L202 49L258 53L286 61L286 74L18 74Z"/><path class="dk" d="M100 60L180 56L200 66L110 68Z"/><path d="M8 80H52M254 30H288V53M150 41Q166 20 188 38" fill="none"/><circle fill="url(#gg)" cx="168" cy="36" r="8"/><g class="wh"><circle class="dk" cx="72" cy="76" r="19"/><circle cx="72" cy="76" r="12" fill="none" stroke="#02d2e3"/><path d="M72 64V88M60 76H84M63 67L81 85M81 67L63 85" fill="none"/></g><g class="wh"><circle class="dk" cx="232" cy="76" r="21"/><circle cx="232" cy="76" r="13" fill="none" stroke="#02d2e3"/><path d="M232 63V89M219 76H245M222 66L242 86M242 66L222 86" fill="none"/></g></symbol>
+<symbol id="kart" viewBox="0 0 200 100"><ellipse cx="100" cy="94" rx="90" ry="4" fill="rgb(0 0 0/.3)" stroke="none"/><g class="sp" stroke="#fff" fill="none" stroke-width="2"><path d="M-6 50H-40M-2 62H-50M0 74H-34"/></g><rect fill="url(#gb)" x="28" y="52" width="124" height="18" rx="7"/><path fill="url(#gb)" d="M68 52L78 30H100L106 52Z"/><path d="M126 52L142 34M136 31H150" fill="none"/><circle fill="url(#gh)" cx="90" cy="18" r="13"/><path fill="url(#gv)" d="M92 14H103V22H92Z"/><g class="wh"><circle class="dk" cx="48" cy="74" r="15"/><path d="M48 62V86M36 74H60" fill="none"/></g><g class="wh"><circle class="dk" cx="138" cy="74" r="15"/><path d="M138 62V86M126 74H150" fill="none"/></g><g class="wh"><circle class="dk" cx="172" cy="72" r="10"/><path d="M172 64V80M164 72H180" fill="none"/></g></symbol>
+<symbol id="cup" viewBox="0 0 120 140"><path fill="url(#gg)" d="M30 20H90V55C90 80 75 92 60 92C45 92 30 80 30 55Z"/><path fill="none" d="M30 30H15C15 55 25 62 32 62M90 30H105C105 55 95 62 88 62M60 92V112"/><path fill="url(#gb)" d="M38 124H82V112H38Z"/><path class="gl" fill="none" stroke="#fff" stroke-width="4" d="M40 30C40 52 46 70 54 80"/><path class="gl" stroke="#fff" stroke-width="2" d="M104 8V22M97 15H111M12 4V14M7 9H17"/></symbol>
+</defs></svg>
+<div id="veil" role="status" aria-label="Loading"><div class="h"><i></i></div><p>kimi antonelli</p><b><i></i></b></div>
+
+<div id="stack">
+ <div class="lay"><div class="in">
+  <section class="hero" data-hero>
+   <canvas class="ct" data-c="#dfe5e9" data-a=".85" aria-hidden="true"></canvas>
+   <svg class="art hf" aria-hidden="true"><use href="#helmet" width="100%" height="100%"/></svg>
+   <div class="col">
+    <header class="mast">
+     <a class="logo" href="/" aria-label="Grido1 Racing Systems">GRIDO1</a>
+     <nav aria-label="Primary"><ul><li><a href="#hero">Driver</a></li><li><a href="#season">Season</a></li><li><a href="#career">Journal</a></li><li><a href="#paddock">Next race</a></li><li><a href="#contact">Store</a></li></ul></nav>
+     <a class="rt" href="tel:0140985947" style="font-size:1rem;font-weight:700">[ Call 0140985947 → ]</a>
+    </header>
+    <div class="mid" id="hero">
+     <div class="idn">
+      <p class="id">driver_012</p>
+      <h1 data-split="kimi antonelli" style="font-family:var(--d)">kimi antonelli</h1>
+      <ul class="meta"><li><i></i>Italy</li><li><i></i>rookie season_2026</li><li><i></i>Mercedes-AMG F1 Team</li></ul>
+     </div>
+     <div class="pan">
+      <div class="br"><i></i><p class="eb">next race</p><dl><dt>belgian gp</dt><dd>spa-francorchamps</dd><dd><time datetime="2026-07-27">27 jul 2026</time></dd></dl></div>
+      <div class="br two"><i></i><p class="eb">Season stats</p><dl class="stats"><div><dt>Races</dt><dd>12</dd></div><div><dt>Podiums</dt><dd>3</dd></div><div><dt>Points</dt><dd>118</dd></div></dl></div>
+     </div>
+    </div>
+    <div class="foot">
+     <a class="tr" href="#season"><s>▶</s><span><b style="font-weight:500">watch trailer</b><br><span style="color:var(--muted)">01:26</span></span></a>
+     <a class="cta" href="tel:0140985947">call now <span aria-hidden="true">→</span></a>
+     <div class="soc"><a href="https://instagram.com">inst</a><a href="https://x.com">x</a><a href="https://youtube.com">youtube</a></div>
+    </div>
+   </div>
+  </section>
+  <div class="shade"></div></div></div>
+
+ <div class="lay l2"><div class="in">
+  <section class="season" id="season">
+   <svg viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <g stroke="#4d4d4d" stroke-width="2.13" stroke-dasharray="12.15 8.35" id="grid">
+     <line x1="645" x2="645" y1="-4000" y2="5440"/><line x1="1277" x2="1277" y1="-4000" y2="5440"/><line x1="1909" x2="1909" y1="-4000" y2="5440"/><line x1="-4000" x2="6560" y1="698" y2="698"/>
+    </g>
+    <g fill="none"><circle cx="1278" cy="699" r="70" stroke="#4d4d4d" stroke-width="3"/><circle cx="1278" cy="699" r="356" stroke="#1e1e1e" stroke-width="2"/><circle cx="1278" cy="699" r="443" stroke="#1e1e1e" stroke-width="2"/><circle id="ping" cx="1278" cy="699" r="10" stroke="#02d2e3" stroke-width="2" opacity="0"/></g>
+    <circle cx="1278" cy="699" r="10.6" fill="#f7fafb"/>
+    <path id="trk" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="6" stroke-linejoin="round" d="M814 936L577 1106 554 1093 563 1063 641 906 756 780 828 688 920 648 1075 527 1297 412 1710 203 1736 203 1746 215 1738 250 1690 291 1702 342 1755 367 1775 416 1875 535 1857 571 1826 574 1775 521 1699 492 1445 569 1418 600 1405 656 1424 710 1485 742 1665 807 1694 848 1682 910 1690 941 1777 991 1820 1022 1822 1066 1763 1147 1712 1158 1621 1129 1550 1083 1404 907 1344 863 1247 838 1067 902 914 944 890 935 877 896 838 911Z"/>
+    <path id="lap" pathLength="1" fill="none" stroke="#02d2e3" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" style="filter:drop-shadow(0 0 8px #02d2e3)" stroke-dasharray="1 1" stroke-dashoffset="1" d="M814 936L577 1106 554 1093 563 1063 641 906 756 780 828 688 920 648 1075 527 1297 412 1710 203 1736 203 1746 215 1738 250 1690 291 1702 342 1755 367 1775 416 1875 535 1857 571 1826 574 1775 521 1699 492 1445 569 1418 600 1405 656 1424 710 1485 742 1665 807 1694 848 1682 910 1690 941 1777 991 1820 1022 1822 1066 1763 1147 1712 1158 1621 1129 1550 1083 1404 907 1344 863 1247 838 1067 902 914 944 890 935 877 896 838 911"/>
+    <g fill="#02d2e3"><polygon points="13.7,0 -6.9,11.9 -6.9,-11.9" transform="translate(1350 352) rotate(73.5)"/><polygon points="13.7,0 -6.9,11.9 -6.9,-11.9" transform="translate(1862 611) rotate(30.5)"/><polygon points="13.7,0 -6.9,11.9 -6.9,-11.9" transform="translate(1733 904) rotate(89.5)"/><polygon points="13.7,0 -6.9,11.9 -6.9,-11.9" transform="translate(585 917) rotate(17.5)"/></g>
+    <g fill="#f7fafb"><path d="M808 899l6 6-6 6-6-6zM822 902l6 6-6 6-6-6zM807 916l6 6-6 6-6-6zM821 916l6 6-6 6-6-6zM836 916l6 6-6 6-6-6zM826 932l6 6-6 6-6-6zM839 932l6 6-6 6-6-6z"/></g>
+   </svg>
+   <div class="cp">
+    <div>
+     <h2 class="disp"><span data-split="the season"></span><span data-split="so far." data-dot></span></h2>
+     <div class="rule"></div>
+     <p class="in2 wrap" data-split="Every race is a step forward. Here's how the season is shaping up." data-fast></p>
+    </div>
+    <div class="plate"><div class="a"><svg width="37" height="23" viewBox="0 0 37 23" fill="none" stroke="#02d2e3"><ellipse cx="18.5" cy="11.5" rx="18" ry="11"/><path d="M.5 11.5h36"/><ellipse id="mer" cx="18.5" cy="11.5" rx="18" ry="11"/></svg><span>F1 <b>/ 2026</b></span></div>
+     <dl><div><dt>P1</dt><dd>in the championship</dd></div><div><dt>6</dt><dd>wins</dd></div><div><dt>9</dt><dd>podiums.</dd></div></dl></div>
+   </div>
+  </section>
+  <div class="shade"></div></div></div>
+
+ <div class="lay l3" id="career">
+  <section class="tl" id="tl">
+   <h2 class="disp"><span data-split="from karts"></span><span data-split="to f1." data-dot></span></h2>
+   <div class="rail" id="rail"><i></i><u></u></div>
+   <div class="row c"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#kart" width="100%" height="100%"/></svg><span class="yr disp" data-split="2012"></span></div><p class="cp2"><b>The first kart.</b> At six, Kimi discovered karting — turning a childhood curiosity into something of his own.</p></div>
+   <div class="row s R"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#cup" width="100%" height="100%"/></svg><span class="yr disp" data-split="2015"></span></div></div>
+   <div class="row c"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#helmet" width="100%" height="100%"/></svg><span class="yr disp" data-split="2019"></span></div><p class="cp2"><b>Finding his people.</b> Kimi joined the Mercedes Junior Programme, marking his first major step into professional motorsport.</p></div>
+   <div class="row s L"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#car" width="100%" height="100%"/></svg><span class="yr disp" data-split="2021"></span></div></div>
+   <div class="row c"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#car" width="100%" height="100%"/></svg><span class="yr disp" data-split="2024"></span></div><p class="cp2"><b>The year everything changed.</b> Formula 2 brought Kimi closer to F1, while Mercedes confirmed him as their future race driver.</p></div>
+   <div class="row s R"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#helmet" width="100%" height="100%"/></svg><span class="yr disp" data-split="2025"></span></div></div>
+   <div class="row c"><div class="pl"><div class="ph"></div><svg class="art" aria-hidden="true"><use href="#car" width="100%" height="100%"/></svg><span class="yr disp" data-split="2026"></span></div><p class="cp2"><b>From karts to f1.</b> Kimi is now racing at the highest level, with Bologna still his anchor — family, home and life beyond racing.</p></div>
+  </section>
+ </div>
+</div>
+
+<section class="pad" id="paddock">
+ <canvas class="ct" data-c="rgb(9 10 11)" data-a=".08" aria-hidden="true"></canvas>
+ <svg class="art pf" aria-hidden="true"><use href="#car" width="100%" height="100%"/></svg>
+ <h2 class="disp"><span data-split="from the"></span><span data-split="paddock." data-dot></span></h2>
+ <div class="pp">
+  <div class="br"><i></i><dl><dt>hungarian gp</dt><dd>silverstone</dd><dd>july 12, 2026</dd></dl></div>
+  <div class="br"><i></i><div class="stat"><div><small>last result</small><b>P4</b></div><div><small>points gained</small><b>+12</b></div><div><small>championship</small><b>P1</b></div><div><small>points</small><b>118</b></div></div></div>
+ </div>
+ <div class="pi">
+  <p>A composed drive through a difficult weekend secured another podium — and kept Kimi at the top of the championship.</p>
+  <a class="cta" href="/stories/hungarian-gp" style="align-self:flex-start;font-size:1.25rem">read story <span aria-hidden="true">→</span></a>
+ </div>
+ <div class="band"><div class="cal" id="cal">
+  <i class="lk" style="left:28.9%;width:8.75%"></i><i class="lk" style="left:40.3%;width:8.9%"></i><i class="lk" style="left:51.6%;width:9.4%"></i><i class="lk" style="left:63.5%;width:8.6%"></i>
+  <div class="cd" style="left:24%;width:7%"><small>round 11</small><b>austrian gp</b><span>29 jun</span></div>
+  <div class="cd" style="left:35.5%;width:7%"><small>round 12</small><b>british gp</b><span>12 jul</span></div>
+  <div class="cd live" style="left:46.9%;width:7%"><small>round 13</small><b>belgian gp</b><span>27 jul</span></div>
+  <div class="cd" style="left:58.3%;width:8%"><small>round 14</small><b>hungarian gp</b><span>03 aug</span></div>
+  <div class="cd" style="left:70.6%;width:5.5%"><small>round 15</small><b>dutch gp</b><span>31 aug</span></div>
+  <i class="dot res" style="left:27.5%">P6</i><i class="dot res" style="left:39%">P4</i><i class="dot live" style="left:50.4%"></i><i class="dot" style="left:62.3%"></i><i class="dot" style="left:73.3%"></i>
+ </div></div>
+</section>
+
+<section class="ft" id="contact">
+ <div class="fp">
+  <canvas class="ct" data-c="rgb(255 255 255)" data-a=".1" aria-hidden="true"></canvas>
+  <svg class="art ff" aria-hidden="true"><use href="#helmet" width="100%" height="100%"/></svg>
+  <span class="lg">GRIDO1</span>
+  <h2 class="disp"><span data-split="keep pushing"></span><span data-split="forward." data-dot></span></h2>
+  <nav class="fn" aria-label="Footer"><a href="#hero">driver</a><a href="#season">season</a><a href="#career">journal</a><a href="#paddock">next race</a><a href="#contact">store</a></nav>
+  <div class="fc"><small>Call the team</small><a class="tel" href="tel:0140985947">0140985947</a></div>
+  <div class="fb">
+   <p class="cp3">© 2026 GRID01 Racing Systems. All rights reserved.</p>
+   <a class="cta hollow" href="/legal" style="font-size:1.1rem">legal documents <span aria-hidden="true">→</span></a>
+   <div class="soc"><a href="https://instagram.com">inst</a><a href="https://x.com">x</a><a href="https://youtube.com">youtube</a></div>
+  </div>
+ </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
